@@ -1,0 +1,29 @@
+{
+  "name": "api_rest_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murilomdk/api_rest_nodejs.git"
+  },
+  "author": "Murilo Dias Kiyomura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murilomdk/api_rest_nodejs/issues"
+  },
+  "homepage": "https://github.com/murilomdk/api_rest_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
